@@ -1,86 +1,89 @@
-# Cosmo-NetSentinal
-Cosmo NetSentinel is a powerful network monitoring and security tool designed to help users keep track of devices on their network, detect potential security threats, and analyze network activity in real time.
-🛡️ NetSentinel
+# 🛡️ Cosmo NetSentinel
 
-NetSentinel is a lightweight, GUI-based network monitoring & diagnostic tool built with Python and Tkinter.
-It provides a clean interface for common networking tasks like scanning devices, checking connections, measuring speed, and more.
+**Cosmo NetSentinel** is a lightweight, GUI-based network monitoring and diagnostic tool built with Python and Tkinter. It provides an intuitive interface for performing common networking tasks such as device scanning, connection checks, speed measurement, and more.
 
-✨ Features
+---
 
-🔍 Network Diagnostics
+## ✨ FEATURES
 
-NetStat — view active connections
+### 🔍 NETWORK DIAGNOSTICS
 
-Ping — test connectivity to hosts
+* **NetStat** — View active network connections.
+* **Ping** — Test connectivity to specific hosts.
+* **NSLookup** — Resolve domain names to IP addresses.
+* **Traceroute** — Map the route to a host.
+* **Port Scan** — Check open ports on a host.
 
-NSLookup — resolve domains to IPs
+### 📡 NETWORK INSIGHTS
 
-Traceroute — map the route to a host
+* **Device Scan** — List all connected devices using `arp -a`.
+* **Net Speed** — Monitor live upload and download speeds.
+* **Net Type** — Automatically detect Wi-Fi or Ethernet connections.
 
-Port Scan — check open ports on a host
+### 🖥️ GUI POWERED
 
-📡 Network Insights
+* **Tkinter-based, user-friendly interface**
+* **Input area for host/IP addresses**
+* **Output panel for logs and scan results**
+* **Auto-updating status labels** (Net Speed, Net Type)
 
-Device Scan — list connected devices (via arp -a)
+### 💾 UTILITIES
 
-Net Speed — live upload & download speed
+* **Save logs to a file**
+* **Clear output panel with one click**
 
-Net Type — auto-detect Wi-Fi or Ethernet
+### 📸 SCREENSHOTS
 
-🖥️ GUI Powered
+*(Add screenshots of your running application here — GUI, logs, scans, etc.)*
 
-Tkinter-based interface
+---
 
-Input area for host/IP
+## 🚀 INSTALLATION
 
-Output panel for logs
+### 1️⃣ CLONE THE REPOSITORY
 
-Auto-updating status labels (Net Speed, Net Type)
-
-💾 Utilities
-
-Save logs to a file
-
-Clear output with one click
-
-📸 Screenshots
-
-(Add screenshots of your running app here — GUI, logs, scans, etc.)
-
-🚀 Installation
-1️⃣ Clone the repo
+```bash
 git clone https://github.com/<your-username>/NetSentinel.git
 cd NetSentinel
+```
 
-2️⃣ Install requirements
+### 2️⃣ INSTALL DEPENDENCIES
+
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Run the app
+### 3️⃣ RUN THE APPLICATION
+
+```bash
 Cosmo NetSentinal.exe
+```
 
-🛠 Requirements
+### ⚡ BUILD INTO WINDOWS .EXE
 
-Python 3.10+
+The executable will be available in the `rar` folder as **Cosmo NetSentinel.exe**.
 
-Tkinter (usually included with Python)
 
-psutil (for network type/speed)
+---
 
-Optional (for extra features):
+## 🛠 REQUIREMENTS
 
-scapy (for advanced device scanning)
+* **Python 3.10+**
+* **Tkinter** (usually included with Python)
+* **psutil** (for network speed and type)
 
-requests (for MAC vendor lookup)
+Optional (for advanced features):
 
-🤝 Contributing
+* **scapy** (for enhanced device scanning)
+* **requests** (for MAC vendor lookup)
+---
 
-Pull requests are welcome!
-If you’d like to add features (like live graphs, alerts, or advanced scans), feel free to fork and contribute.
+## 📜 LICENSE
 
-📜 License
+This project is licensed under the **MIT License**.
 
-This project is licensed under the MIT License.
+---
 
-👨‍💻 Author
+## 👨‍💻 AUTHOR
 
-Developed with ❤️ by Cosmic ✨
+Developed by **Cosmic**
