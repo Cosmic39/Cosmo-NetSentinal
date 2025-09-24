@@ -1,6 +1,6 @@
-# 🛡️ Cosmo NetSentinel
+# 🛡️ Cosmo NetSentinel (Public EXE)
 
-**Cosmo NetSentinel** is a lightweight, GUI-based network monitoring and diagnostic tool built with Python and Tkinter. It provides an intuitive interface for performing common networking tasks such as device scanning, connection checks, speed measurement, and more.
+**Cosmo NetSentinel** is a lightweight, GUI-based network monitoring and diagnostic tool built with Python and Tkinter. This public repository provides the **ready-to-use executable** so you can run the application on Windows without installing Python or accessing the source code.
 
 ---
 
@@ -32,50 +32,46 @@
 * **Save logs to a file**
 * **Clear output panel with one click**
 
-### 📸 SCREENSHOTS
+---
 
-*(Add screenshots of your running application here — GUI, logs, scans, etc.)*
+## 🚀 USAGE
+
+### 1️⃣ Download the EXE
+
+* Download **Cosmo NetSentinel.exe** from the `Cosmo NetSentinel/` folder of this repository.
+
+### 2️⃣ Run the Application
+
+* Simply double-click **Cosmo NetSentinel.exe** to launch the app. No Python installation required.
+
+### 3️⃣ Optional Features
+
+* Logs can be saved directly from the GUI.
+* All network scans and diagnostics are performed within the app.
 
 ---
 
-## 🚀 INSTALLATION
+## ⚡ NOTES
 
-### 1️⃣ CLONE THE REPOSITORY
-
-```bash
-git clone https://github.com/<your-username>/NetSentinel.git
-cd NetSentinel
-```
-
-### 2️⃣ INSTALL DEPENDENCIES
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3️⃣ RUN THE APPLICATION
-
-```bash
-Cosmo NetSentinal.exe
-```
-
-### ⚡ BUILD INTO WINDOWS .EXE
-
-The executable will be available in the `rar` folder as **Cosmo NetSentinel.exe**.
-
+* This repository only contains the **compiled executable**.
+* The full **source code** is maintained in a **private repository** for security and intellectual property protection.
 
 ---
 
-## 🛠 REQUIREMENTS
+## 📂 FILE STRUCTURE (Public EXE)
 
-* **Python 3.10+**
-* **Tkinter** (usually included with Python)
-* **psutil** (for network speed and type)
+```
+Cosmo NetSentinel/
+└─ Cosmo NetSentinel.exe
+README.md
+```
 
-Optional (for advanced features):
+---
 
-* **scapy** (for enhanced device scanning)
-* **requests** (for MAC vendor lookup)
+## 🤝 CONTRIBUTING
+
+Pull requests for the EXE repository are not needed, as the source code is private. Feature requests or bug reports can be submitted via Issues.
+
 ---
 
 ## 📜 LICENSE
