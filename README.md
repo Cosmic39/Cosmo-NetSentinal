@@ -1,4 +1,4 @@
-# 🛡️ Cosmo NetSentinel (Public EXE)
+# 🛡️ Cosmo NetSentinel
 
 **Cosmo NetSentinel** is a lightweight, GUI-based network monitoring and diagnostic tool built with Python and Tkinter. This public repository provides the **ready-to-use executable** so you can run the application on Windows without installing Python or accessing the source code.
 
